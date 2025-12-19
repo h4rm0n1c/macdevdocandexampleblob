@@ -63,7 +63,7 @@ When combined with:
 - Correctly matching the **classic Mac OS color palette**
 
 This script is currently pending release and is expected to be published, in its current form, within the next few uploads to this repository.
-
+THE SCRIPT IS RELEASED, in technical_breakthroughs folder. I felt like I can't just hold on to this, it's too useful to keep to myself for other tinkerers who might want a less irritating toolchain and quicker turnaround on development.
 ---
 
 ## Intended Use
