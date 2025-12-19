@@ -15,7 +15,7 @@ Typical install location:
 
 - **Apple Developer CDs**  
   Sourced from editions released in 1992, 1994, 1995, and 1996  
-  (six discs total were required)
+  (six discs total were required to make this work as well as this, it may benefit from more delta data since the platform evolved substantially over time)
 
 - **OpenAI / ChatGPT**  
   Assistance with heuristics and script creation used to collate the data  
