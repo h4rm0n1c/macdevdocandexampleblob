@@ -28,6 +28,14 @@ Typical install location:
 - **Macintosh Garden**  
 - **Macintosh Archive**
 
+- **Markus Fritze**  
+  https://github.com/sarnau  
+  @sarnau  
+
+  Provided icon delta data used during reverse analysis.  
+  His software and all portions of it are subject to the **MIT License**;  
+  a copy of the license may be found attached.
+
 ---
 
 ## Related Reference Project
