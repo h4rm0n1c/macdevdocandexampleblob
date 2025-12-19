@@ -1,20 +1,67 @@
-I just needed that horrid "new repo" screen to go away.
-This is a blob of useful data that codex can use to help you develop mac os 7 apps.
-the one and only release is where the blobs are located.
-these can be unpacked into a codex container, I usually put them in /opt
+# Mac OS 7 Development Reference Blob
 
+This repository contains a curated blob of reference material intended for use with LLM-assisted development of **Mac OS 7.x applications**, with **System 7.5.3** as a specific target.
 
-Credits/Attribution
-Apple Developer CDs from 1992, 1994, 1995 and 1996 (I only needed 6 total)
-OpenAi/ChatGPT for assistance on heuristics/script creation to collate the data (this process was done manually) and extract as much raw text data as possible from the above developer CDs.
-Retro68 - https://github.com/autc04/Retro68/
-Macintosh Garden and Macintosh Archive.
+The repository exists primarily to host these blobs; the **one and only release** is where all usable data is located.
 
-https://github.com/sarnau/NewtonKeyboardEnabler 
- This project has a code listing for a .r file in its readme with icon data inside it.
- Combined with the raw resource files and some PNGs made from them with conventional tools, this provided enough delta data along with the above developer docs to create a new python script that
- can take 6 PNG files and produce a .r file that Retro68's Rez can use, matched to the Mac OS color pallette. this script is pending release and will likely be released in its current form within the next few uploads to this repo.
+These assets can be unpacked into a Codex-style container.  
+Typical install location:
 
- This repo + an approrpriate LLM coding tool can enable one to write Mac OS 7 apps, with 7.5.3 as a specific target.
+    /opt
 
- It currently lacks more detailed documentation on the finer points of colored UI design/color UI controls from the color era of macs unfortunately, there are some holes, but I've managed to use this to make some pretty amazing progress in a personal project that I intend to release when ready.
+---
+
+## Credits / Attribution
+
+- **Apple Developer CDs**  
+  Sourced from editions released in 1992, 1994, 1995, and 1996  
+  (six discs total were required)
+
+- **OpenAI / ChatGPT**  
+  Assistance with heuristics and script creation used to collate the data  
+  and extract as much raw text as possible from the developer CDs  
+  (the extraction and curation process itself was performed manually)
+
+- **Retro68**  
+  https://github.com/autc04/Retro68/
+
+- **Macintosh Garden**  
+- **Macintosh Archive**
+
+---
+
+## Related Reference Project
+
+https://github.com/sarnau/NewtonKeyboardEnabler
+
+This project includes a code listing for a Rez `.r` file in its README that embeds icon data directly.
+
+When combined with:
+
+- Raw resource fork icon data
+- PNGs generated from those resources using conventional tools
+- Extracted documentation from the Apple Developer CDs
+
+…it provided enough delta information to develop a **new Python script** capable of:
+
+- Taking **six PNG files**
+- Emitting a **Rez-compatible `.r` file**
+- Producing icon resources compatible with **Retro68’s Rez**
+- Correctly matching the **classic Mac OS color palette**
+
+This script is currently pending release and is expected to be published, in its current form, within the next few uploads to this repository.
+
+---
+
+## Intended Use
+
+This repository, combined with an appropriate LLM-based coding tool, enables practical development of **Mac OS 7 applications**, with a strong focus on **System 7.5.3**.
+
+While the corpus is extensive, it currently lacks detailed documentation on certain finer points of **color-era Macintosh UI design**, particularly around:
+
+- Colored UI controls
+- Color usage conventions in system-era interfaces
+
+There are known gaps in this area.
+
+Despite this, the material has already enabled substantial progress on a personal project, which is intended for public release once it is ready.
