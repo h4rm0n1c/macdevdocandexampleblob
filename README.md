@@ -1,4 +1,6 @@
-# Mac OS 7 Development Reference Blob
+# Mac OS 7 Development Reference Blob 
+
+Just in time for the 30th anniversary since System 7.5.3's Release on Jan 1996!
 
 This repository contains a curated blob of reference material intended for use with LLM-assisted development of **Mac OS 7.x applications**, with **System 7.5.3** as a specific target.
 
