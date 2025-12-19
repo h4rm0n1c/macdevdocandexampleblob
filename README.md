@@ -32,6 +32,7 @@ Typical install location:
   https://github.com/sarnau  
   @sarnau  
 
+  His "Newton Keyboard Enabler" extension (project on github)
   Provided icon delta data used during reverse analysis.  
   His software and all portions of it are subject to the **MIT License**;  
   a copy of the license may be found attached.
