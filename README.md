@@ -6,6 +6,8 @@ This repository contains a curated blob of reference material intended for use w
 
 The repository exists primarily to host these blobs; the **one and only release** is where all usable data is located.
 
+Check the technical_breakthroughs folder for tools, utilities and data that can supercharge your Classic Mac OS 7 tinkering. there's already a PNG to icon resource .r file tool there, sample input files and a sample output, as far as I am aware there is no comparable tool that makes this task this easy.
+
 These assets can be unpacked into a Codex-style container.  
 Typical install location:
 
