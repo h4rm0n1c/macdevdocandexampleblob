@@ -20,7 +20,7 @@ Typical install location:
 ## Credits / Attribution
 
 - **Apple Developer CDs**  
-  Sourced from editions released in 1992, 1994, 1995, and 1996  
+  Sourced from editions released in 1992, 1994, 1995, 1996  and 1997
   (six discs total were required to make this work as well as this, it may benefit from more delta data since the platform evolved substantially over time)
 
 - **OpenAI / ChatGPT**  
