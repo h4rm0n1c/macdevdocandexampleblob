@@ -4,7 +4,7 @@ Just in time for the 30th anniversary since System 7.5.3's Release on Jan 1996!
 
 This repository contains a curated blob of reference material intended for use with LLM-assisted development of **Mac OS 7.x applications**, with **System 7.5.3** as a specific target.
 
-The repository exists primarily to host these blobs; the **one and only release** is where all usable data is located.
+The repository exists primarily to host these blobs; the **releases** is where all usable data for LLMS is located.
 
 Check the technical_breakthroughs folder for tools, utilities and data that can supercharge your Classic Mac OS 7 tinkering. there's already a PNG to icon resource .r file tool there, sample input files and a sample output, as far as I am aware there is no comparable tool that makes this task this easy.
 
