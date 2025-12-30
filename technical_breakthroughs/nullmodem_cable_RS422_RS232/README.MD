@@ -12,8 +12,6 @@ The goal: a reliable, repeatable wiring reference that you can hand to Future Yo
 
 ![Quadra 700 RS-422 to PC RS-232 null-modem wiring](./422_TO_232_DONGLE.png)
 
-> Replace `nullmodem_diagram.png` with the actual filename of the PNG in this folder.
-
 ---
 
 ## Notes
