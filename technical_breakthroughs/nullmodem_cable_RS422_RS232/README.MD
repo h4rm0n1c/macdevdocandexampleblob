@@ -1,6 +1,26 @@
-the 2025 edition of the Apple RS-422 to RS-232/DB-9 serial null modem cable, as initially built out of necessity when I was 13, back then I used a db-25 connector but db-9 is much more compact and common these days for this kind of thing.
+# Null Modem Cable: Mac RS-422 ↔ PC RS-232 (DB-9 F–F)
 
-Graphic was sourced from https://www.jmri.org/help/en/html/hardware/MacintoshSerialPorts.shtmL
-updated from db-25 to db-9, I've gone to the best effort to break out as many signals as possible in a way that should be compatible with many devices.
+This directory documents a proven-working null modem cable for connecting a classic Mac
+(Quadra-era RS-422 mini-DIN-8) to a PC RS-232 DB-9 serial port.
 
-verified working on an LC475 with OS 7.5.3, OpenTransport 1.3 and apple remote access client 3.0 in PPP mode,  connected to a linux box via a standard rs-232 to usb dongle and running PPP server as a service.
+The goal: a reliable, repeatable wiring reference that you can hand to Future You
+(or someone else) without hunting through forum posts.
+
+---
+
+## Wiring Diagram
+
+![Quadra 700 RS-422 to PC RS-232 null-modem wiring](./422_TO_232_DONGLE.png)
+
+> Replace `nullmodem_diagram.png` with the actual filename of the PNG in this folder.
+
+---
+
+## Notes
+
+- Mac side: RS-422 (mini-DIN-8) configured to talk to PC-style RS-232.
+- PC side: DB-9 female, wired as a null modem (crossed TX/RX, with appropriate handshaking).
+- Intended for:
+  - Direct serial file transfer
+  - Serial console / terminal access
+  - General Mac ↔ PC experiments where a “real” null-modem cable is required
