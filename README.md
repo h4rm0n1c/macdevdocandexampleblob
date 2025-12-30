@@ -8,6 +8,8 @@ The repository exists primarily to host these blobs; the **releases** is where a
 
 Check the technical_breakthroughs folder for tools, utilities and data that can supercharge your Classic Mac OS 7 tinkering. there's already a PNG to icon resource .r file tool there, sample input files and a sample output, as far as I am aware there is no comparable tool that makes this task this easy.
 
+The second item that's been added is a nice little RS422 to RS232 adapter that goes well with a usb serial dongle, desktop COM port or router DB9 serial for PPP based networking of your old mac.
+
 These assets can be unpacked into a Codex-style container.  
 Typical install location:
 
