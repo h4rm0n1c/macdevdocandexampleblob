@@ -17,3 +17,5 @@ fc-cache -f -v
 fc-scan --format '%{family} %{style} spacing=%{spacing}\n' "$HOME/.local/share/fonts/ChicagoFLF-Mono-Compact.ttf"
 fc-list :spacing=100 | grep -i 'ChicagoFLF Mono Compact' || true
 ```
+The output has also been included here for completeness sake and for those who might not have access to a linux box.
+Chicago FLF was crearted by robin c asady.
