@@ -1,4 +1,6 @@
-'''
+This script will allow you to convert ChicagoFLF.ttf into a Mono Compact font suitable for terminal use.
+
+```
 fontforge -lang=py -script /tmp/make_font_mono_compact.py \
   "$HOME/.local/share/fonts/ChicagoFLF.ttf" \
   "/tmp/ChicagoFLF-Mono-Compact.ttf" \
@@ -12,4 +14,4 @@ fc-cache -f -v
 # Verify it is tagged monospace
 fc-scan --format '%{family} %{style} spacing=%{spacing}\n' "$HOME/.local/share/fonts/ChicagoFLF-Mono-Compact.ttf"
 fc-list :spacing=100 | grep -i 'ChicagoFLF Mono Compact' || true
-'''
+```
