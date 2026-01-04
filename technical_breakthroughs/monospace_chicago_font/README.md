@@ -19,4 +19,4 @@ fc-list :spacing=100 | grep -i 'ChicagoFLF Mono Compact' || true
 ```
 The output has also been included here for completeness sake and for those who might not have access to a linux box.
 
-Chicago FLF was crearted by robin c asady.
+ChicagoFLF was crearted by robin casady.
