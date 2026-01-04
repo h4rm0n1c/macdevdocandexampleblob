@@ -7,7 +7,7 @@ fontforge -lang=py -script /tmp/make_font_mono_compact.py \
   "$HOME/.local/share/fonts/ChicagoFLF.ttf" \
   "/tmp/ChicagoFLF-Mono-Compact.ttf" \
   "ChicagoFLF Mono Compact" \
-  "0"
+  "$"
 
 # Install + refresh cache
 cp -f "/tmp/ChicagoFLF-Mono-Compact.ttf" "$HOME/.local/share/fonts/"
