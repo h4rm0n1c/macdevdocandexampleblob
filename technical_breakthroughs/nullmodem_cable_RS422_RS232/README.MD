@@ -3,8 +3,8 @@
 This directory documents a proven-working null modem cable for connecting a classic Mac
 (Quadra-era RS-422 mini-DIN-8) to a PC RS-232 DB-9 serial port.
 
-The goal: a reliable, repeatable wiring reference that you can hand to Future You
-(or someone else) without hunting through forum posts.
+The goal: a reliable, repeatable wiring reference that can be reused 
+without hunting through forum posts.
 
 ---
 
@@ -22,3 +22,10 @@ The goal: a reliable, repeatable wiring reference that you can hand to Future Yo
   - Direct serial file transfer
   - Serial console / terminal access
   - General Mac ↔ PC experiments where a “real” null-modem cable is required
+
+## Getting Online
+-You'll want Open Transport, 1.3/1.3.1 is best if you can get it.
+-You'll want either a SLIP or PPP client, I used Apple Remote Access Client 3 in PPP mode.
+-You'll need a host device or machine that can handshake properly if you want the highest possible speed, you will need RTS CTS handhshaking enabled for that.
+-Web browsing outside of action retro's frogfind is a humorous proposition at best, but that at least worked for me when tested.
+-There is Macintosh Repository's 68K Client that may offer better value for your network connection.
