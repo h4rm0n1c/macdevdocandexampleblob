@@ -75,11 +75,4 @@ THE SCRIPT IS RELEASED, in technical_breakthroughs folder. I felt like I can't j
 
 This repository, combined with an appropriate LLM-based coding tool, enables practical development of **Mac OS 7 applications**, with a strong focus on **System 7.5.3**.
 
-While the corpus is extensive, it currently lacks detailed documentation on certain finer points of **color-era Macintosh UI design**, particularly around:
-
-- Colored UI controls
-- Color usage conventions in system-era interfaces
-
-There are known gaps in this area.
-
-Despite this, the material has already enabled substantial progress on a personal project, which is intended for public release once it is ready.
+The most obvious issues with it is that it can occasionally get stuck and insist on using a PowerPC API rather than a 68K one, experiments with Speech Manager were the first to reveal this issue with this blob, it's likely that an appropriate AGENTS.MD note will prevent this issue.
