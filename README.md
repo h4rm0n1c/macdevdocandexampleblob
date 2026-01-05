@@ -1,4 +1,4 @@
-# Mac OS 7 Development Reference Blob 
+# Mac OS 7 Development Reference Blob and Cool Stuff I Made From It
 
 Just in time for the 30th anniversary since System 7.5.3's Release on Jan 1996!
 
