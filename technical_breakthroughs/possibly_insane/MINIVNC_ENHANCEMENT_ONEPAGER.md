@@ -17,6 +17,10 @@ I will further assess this subject at a later time, note is here for now so that
 
 These projects are crying out for a fork that brings updates and enhancements, possibly modern toolchain support and modernised code repo presence, LLMS and 20+ years worth of comp sci field advancement may also benefit these projects.
 
+We will now continue this scheduled transmission...
+
+-----------------------
+
 MiniVNC is already impressively fast on vintage Macs by keeping memory low and avoiding heavyweight screen tracking. The next leap isn’t “more compression” — it’s **stop treating the screen like a mystery**.
 
 Classic Mac OS gives us high-quality signals about what changed (QuickDraw + Window Manager activity). If we harvest those signals, we can send **less** and send **smarter**, making MiniVNC *feel* like a modern remote desktop: lower latency, fewer bytes, fewer stalls.
