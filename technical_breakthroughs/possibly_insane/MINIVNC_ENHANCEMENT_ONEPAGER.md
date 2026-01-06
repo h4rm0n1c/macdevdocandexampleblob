@@ -1,5 +1,20 @@
 ## Proposal: “RDP-like” performance upgrades for MiniVNC (without breaking VNC compatibility)
 
+Edit: Rejected as out of scope, however, the value has been recognised as a potential experiment I can conduct with my own resources.
+I was also usefully enlightened to the existence of ChromiVNC
+
+https://www.macintoshrepository.org/25855-chromivnc-server-3-4a5-for-system-7-5-5
+
+sources here:
+
+https://web.archive.org/web/20070213054229/http://www.chromatix.uklinux.net/vnc/download.html
+
+and vncpatches68k/sources on same page:
+
+https://www.macintoshrepository.org/33096-vncpatches68k
+
+I will further assess this subject at a later time, note is here for now so that information is not lost.
+
 MiniVNC is already impressively fast on vintage Macs by keeping memory low and avoiding heavyweight screen tracking. The next leap isn’t “more compression” — it’s **stop treating the screen like a mystery**.
 
 Classic Mac OS gives us high-quality signals about what changed (QuickDraw + Window Manager activity). If we harvest those signals, we can send **less** and send **smarter**, making MiniVNC *feel* like a modern remote desktop: lower latency, fewer bytes, fewer stalls.
@@ -48,3 +63,4 @@ Introduce per-cycle budgets (tiles/bytes/time) and a “freshness-first” polic
 - Works with mainstream VNC clients unchanged.
 
 **Bottom line:** This is the “RDP feel” path that keeps MiniVNC compatible, stable, and fast on real vintage hardware.
+
